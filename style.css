@@ -1,0 +1,168 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F1F1F1; */
+}
+
+/* Header design */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 15px;
+    color: black;
+}
+
+/* main section design */
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+/* Website Hero Section */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    background-image: url("images/circledesign.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.prebook-button {
+    background-color: #E02C6D;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+
+/* different company logo styles */
+
+.logos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 30px;
+}
+
+.logos-section div {
+    margin: 7% 0 ;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.logos-section div img {
+     margin-right: 30px;
+     padding: 10px 0;
+}
+
+/* Product Cards */
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #FFFFFF;
+    gap: 10px;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FEFEFE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-button {
+    border: none;
+    background-color: #E02C6D;
+    padding: 10px;
+}
+
+.card a {
+    color: #E02C6D;
+}
+
+.see-more-container {
+    text-align: right;
+}
+
+.see-more {
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+/* Featured section style */
+.featured-section {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-description {
+    margin-left: 30px;
+}
+
+.featured-button {
+    padding: 10px;
+    border: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    height: 30vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    padding-top: 50px;
+}
+
+.social-media-icons i {
+    padding-right: 10px;
+}
